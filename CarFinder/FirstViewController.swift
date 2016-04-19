@@ -7,8 +7,9 @@
 //
 
 import UIKit
+import CoreLocation
 
-class FirstViewController: UIViewController {
+class FirstViewController: UITableViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -20,6 +21,8 @@ class FirstViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
+    @IBAction func addLocation(sender: AnyObject) {
+    }
 
 }
 
